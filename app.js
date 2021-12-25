@@ -1,5 +1,2 @@
-var commandLineArgs = proccess.argv;
-console.log(commandLineArgs);
-var profileDataArgs = proccess.argv.slice(2, process.argv.length);
-console.log(profileDataArgs);
+const profileDataArgs = proccess.argv.slice(2, proccess.argv.length);
 console.log(profileDataArgs);
