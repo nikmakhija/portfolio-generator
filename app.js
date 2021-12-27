@@ -1,3 +1,6 @@
+const profileDataArgs = process.argv.slice(2, proccess.argv.length);
+const name = profileDataArgs[0];
+const name = profileDataArgs[1];
 const printProfileData = profileDataArr => {
   // This...
   for (let i = 0; i < profileDataArr.length; i += 1) {
