@@ -12,3 +12,4 @@ const printProfileData = profileDataArr => {
   });
 };
 const generatePage = () => Name: Nikhil, Github: nikmakhija';
+console.log(generatePage('Nikhil','nikmakhija'));
